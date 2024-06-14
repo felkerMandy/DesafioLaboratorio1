@@ -2,19 +2,24 @@ public class Loja {
     private String nome;
     private int quantidadeFuncionarios;
     private double salarioBaseFuncionario;
-    private Endereco enderecoLoja;
-    private Data dataDeFundacao;
+    private Endereco endereco;
+    private Data dataFundacao;
 
-    Loja(String nome, int quantidadeFuncionarios, double salarioBaseFuncionarios){
+    Loja(String nome, int quantidadeFuncionarios, double salarioBaseFuncionarios, Endereco endereco, Data dataFundacao){
         this.nome = nome;
         this.quantidadeFuncionarios = quantidadeFuncionarios;
         this.salarioBaseFuncionario = salarioBaseFuncionarios;
+        this.endereco = endereco;
+        this.dataFundacao = dataFundacao;
+
     }
 
-    Loja(String nome, int quantidadeFuncionarios){
+    Loja(String nome, int quantidadeFuncionarios, Endereco endereco, Data dataFundacao){
         this.nome = nome;
         this.quantidadeFuncionarios = quantidadeFuncionarios;
         this.salarioBaseFuncionario = -1;
+        this.endereco = endereco;
+        this.dataFundacao = dataFundacao;
     }
 
     public String getNome () {
@@ -41,20 +46,20 @@ public class Loja {
         this.salarioBaseFuncionario = salarioBaseFuncionario;
     }
 
-    public Endereco getEnderecoLoja() {
-        return enderecoLoja;
+    public Endereco getEndereco() {
+        return endereco;
     }
 
-    public void setEnderecoLoja(Endereco enderecoLoja) {
-        this.enderecoLoja = enderecoLoja;
+    public void setEndereco(Endereco endereco) {
+        this.endereco = endereco;
     }
 
-    public Data getDataDeFundacao() {
-        return dataDeFundacao;
+    public Data getDataFundacao() {
+        return dataFundacao;
     }
 
-    public void setDataDeFundacao(Data dataDeFundacao) {
-        this.dataDeFundacao = dataDeFundacao;
+    public void setDataFundacao(Data dataDeFundacao) {
+        this.dataFundacao = dataFundacao;
     }
 
     public char tamanhoDaLoja(){
@@ -80,9 +85,9 @@ public class Loja {
 
     }
     @Override
-    public String toString(){
+    public  String toString(){
         return "Nome da Loja: " + this.nome + "Tamanho da Loja: " + this.tamanhoDaLoja() + "Gastos com Salário:"
-                + this.gastosComSalario();
+                + this.gastosComSalario() + "Endereço: " + this.endereco + "Data de Fundação: " + this.dataFundacao;
     }
 }
 
