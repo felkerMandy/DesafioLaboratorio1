@@ -35,7 +35,7 @@ public class Endereco {
     public String getEstado(){
         return estado;
     }
-    public void setEstado(String Estado){
+    public void setEstado(String estado){
         this.estado = estado;
     }
 

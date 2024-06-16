@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dbfd0cfa-ce61-440b-a919-1347cc59062e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Etapa 4/Etapa1/src/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Etapa 4/Etapa1/src/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Etapa 4/Etapa1/src/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Etapa 4/Etapa1/src/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Etapa 4/Etapa1/src/Loja.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Etapa 4/Etapa1/src/Loja.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Etapa 4/Etapa1/src/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Etapa 4/Etapa1/src/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Etapa 4/Etapa1/src/ValidadorEtapa1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Etapa 4/Etapa1/src/ValidadorEtapa1.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2h4XyUFEdvrzS2thSeQyUv6K9X4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.Principal.executor": "Run",
+    "Application.ValidadorEtapa1.executor": "Run",
+    "Application.ValidadorEtapa2.executor": "Run",
+    "Application.ValidadorEtapa3.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Angela/Documents/etapasgit",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Angela/Documents/DesafioLab1/DesafioLaboratorio1/src/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ValidadorEtapa1" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ValidadorEtapa1" />
+      <module name="DesafioLaboratorio1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dbfd0cfa-ce61-440b-a919-1347cc59062e" name="Changes" comment="" />
+      <created>1716854588603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716854588603</updated>
+      <workItem from="1716854589820" duration="7033000" />
+      <workItem from="1717003957634" duration="1996000" />
+      <workItem from="1717009859543" duration="12574000" />
+      <workItem from="1717508741122" duration="39031000" />
+      <workItem from="1718159245233" duration="844000" />
+      <workItem from="1718160666396" duration="2733000" />
+      <workItem from="1718169096808" duration="28632000" />
+      <workItem from="1718340134593" duration="3571000" />
+      <workItem from="1718516389745" duration="603000" />
+      <workItem from="1718517144323" duration="43000" />
+      <workItem from="1718517252701" duration="49000" />
+      <workItem from="1718575822400" duration="201000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="if(mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12  &amp;&amp; dia &gt; 31){&#10;            System.out.println(&quot;Data Inválida.&quot;);&#10;            this" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
