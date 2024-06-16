@@ -10,14 +10,13 @@ public class Data {
         this.mes = mes;
         this.ano = ano;
         if (this.verificarData(dia, mes, ano)) {
+            System.out.println("Data válida.");
+        } else {
             System.out.println("Data Inválida.");
             this.dia = 1;
             this.mes = 1;
             this.ano = 2000;
-        } else {
-            System.out.println("Data válida.");
         }
-
     }
 
     public int getAno() {
@@ -45,22 +44,22 @@ public class Data {
     }
 
     public boolean verificaAnoBissexto() {
-        return Year.isLeap((long)this.ano);
+        return Year.isLeap(this.ano);
     }
 
     private boolean verificarData(int dia, int mes, int ano) {
         if (dia <= 0) {
-            return true;
-        } else if (mes > 0 && mes <= 12) {
-            if (ano <= 0) {
-                return true;
-            } else if ((mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12) && dia > 31) {
-                return true;
-            } else if ((mes == 4 || mes == 6 || mes == 9 || mes == 11) && dia > 30) {
-                return true;
-            } else {
-                return mes == 2 && this.verificaAnoBissexto() && dia > 29 || mes == 2 && !this.verificaAnoBissexto() && dia > 28;
-            }
+            return false;
+        } else if (mes <= 0 || mes > 12) {
+            return false;
+        } else if (ano <= 0) {
+            return false;
+        } else if ((mes == 1 || mes == 3 || mes == 5 || mes == 7 || mes == 8 || mes == 10 || mes == 12) && dia > 31) {
+            return false;
+        } else if ((mes == 4 || mes == 6 || mes == 9 || mes == 11) && dia > 30) {
+            return false;
+        } else if ((mes == 2 && verificaAnoBissexto() && dia > 29) || (mes == 2 && !verificaAnoBissexto() && dia > 28)) {
+            return false;
         } else {
             return true;
         }
